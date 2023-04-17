@@ -1,6 +1,5 @@
 {
   "name": "deploy-app",
-  "author": "Sahan Kodituwakku",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
