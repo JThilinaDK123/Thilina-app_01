@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: thilina9718/thilina_app_01:latest
         imagePullPolicy: Never
+        image: thilina9718/thilina_app_01:latest
         ports:
         - containerPort: 3000
 
