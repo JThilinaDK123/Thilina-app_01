@@ -53,6 +53,7 @@ jobs:
         kubectl apply -f deployment.yml
     - name: Test service URLs
       run: |
+        kubectl expose deployment service-nodeapp --type=LoadBalancer --port=8080
         minikube service list
         minikube service service-nodeapp --url
         echo "------------------opening the service-------------------"
